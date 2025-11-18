@@ -486,6 +486,11 @@ function mezclarImagenes(matriz1, matriz2, factor) {
 
 
 
+
+
+
+
+
 /**
  * Ejercicio 4.2: Filtro Sepia (9 puntos)
  * 
@@ -541,6 +546,8 @@ function aplicarSepia(matriz) {
  * 1. Convertir a escala de grises
  * 2. Para cada pixel, calcular diferencia con vecinos
  * 3. Si diferencia > umbral, es borde (blanco), sino negro
+ * 
+ * 
  * 
  * @example
  * const bordes = detectarBordes(matriz, 50);
