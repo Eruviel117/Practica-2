@@ -88,7 +88,6 @@ function imagenAMatriz(rutaImagen) {
 /**
  * Ejercicio 1.2: Convertir matriz de píxeles a imagen PNG (5 puntos)
  * 
- * Proceso inverso: tomar una matriz de píxeles y guardarla como PNG.
  * 
  * @param {Array<Array<Object>>} matriz - Matriz de píxeles {r,g,b,a}
  * @param {string} rutaSalida - Ruta donde guardar el PNG
