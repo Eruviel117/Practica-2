@@ -405,6 +405,8 @@ function voltearVertical(matriz) {
  * 1. Transponer: pixel[i][j] → pixel[j][i]
  * 2. Voltear horizontal: invertir cada fila
  * 
+ * 
+ * 
  * Puedes usar transponerMatriz() de matriz.js (¡pero cuidado! trabaja con números, 
  * no con objetos pixel)
  * 
