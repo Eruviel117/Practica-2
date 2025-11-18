@@ -426,7 +426,7 @@ function rotar90Grados(matriz) {
   
 
 
-  
+
   return resultado;
 
 }
@@ -481,6 +481,10 @@ function mezclarImagenes(matriz1, matriz2, factor) {
   return resultado;
 
 }
+
+
+
+
 
 /**
  * Ejercicio 4.2: Filtro Sepia (9 puntos)
