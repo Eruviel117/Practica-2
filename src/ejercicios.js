@@ -45,11 +45,6 @@ const {
  * @param {string} rutaImagen - Ruta del archivo PNG
  * @returns {Array<Array<Object>>} - Matriz de píxeles
  * 
- * Pistas:
- * - Usa PNG.sync.read() para leer la imagen
- * - png.width y png.height te dan las dimensiones
- * - png.data es un Buffer con formato [R,G,B,A, R,G,B,A, ...]
- * - El índice en el buffer para el pixel (x,y) es: idx = (width * y + x) * 4
  * 
  * @example
  * const matriz = imagenAMatriz('imagenes/entrada/test_pequeña.png');
