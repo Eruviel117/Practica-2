@@ -1,107 +1,133 @@
-# Editor de Imágenes con Álgebra Matricial
+# Fundamentos de Algebra - Practica 1
 
-**Fundamentos de Álgebra - Unidad III: Álgebra Lineal Aplicada**  
-Tecnológico de Software
+## Información del Estudiante
+- **Nombre:** Euruviel Márquez Martínez  
+- **Matrícula:**  SW2509018
+- **Grupo:** 1C 
+- **Carrera:** TSW  
+- **Cuatrimestre:** Primero  
+- **Profesor:** Jorge Javier Pedrozo Romero  
+
+##  Descripción del Proyecto
+
+Este repositorio contiene mi solución a la práctica de **Fundamentos de Programación**, donde implemento funciones en JavaScript para resolver problemas de álgebra básica, preparándome para trabajar con operaciones matriciales más complejas.
+
+##  Objetivos Alcanzados
+
+- ✅ Dominar variables y tipos de datos en JavaScript
+- ✅ Implementar estructuras condicionales
+- ✅ Utilizar bucles y funciones
+- ✅ Manipular arrays unidimensionales
+- ✅ Trabajar con arrays bidimensionales (matrices)
+- ✅ Aplicar control de versiones con Git y GitHub
 
 ---
 
-## Objetivo
+## 📊 Progreso de Ejercicios
 
-Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
+### Sección 1: Conversión Imagen = Matriz 
+- [x] 1.1 Imagen a matriz     ✅
+- [x] 1.2 Matris a imagen     ✅
+- [x] 1.3 Obtener canal       ✅
+- [x] 1.4 Obtener dimencion de imagen ✅
+
+
+### Sección 2: Operaciones Basicas 
+- [x] 2.1 Ajuste de brillo ✅
+- [x] 2.2 Invertir colores ✅
+- [x] 2.3 Convertir esacala de grises  ✅
+
+
+### Sección 3: Transformaciones geometricas 
+- [x] 3.1 Voltear horizontal ✅
+- [x] 3.2 voltear vertical  ✅
+- [x] 3.3 Rotar a 90 grados✅
+
+
+### Sección 4: Filtroz avanzados
+- [x] 4.1 Mezclar imagenes ✅
+- [x] 4.2 Aplicar sepia ✅
+- [x] 4.3 Detectar bordes ✅
+
 
 ---
 
-## Instrucciones
+## 📈 Calificación Final
 
-### 1. Clonar el repositorio
+```
+┌────────────────────────────────────────┐
+│  REPORTE DE CALIFICACIÓN               │
+├────────────────────────────────────────┤
+│  Puntos obtenidos: 100/100             │
+│  Porcentaje: 100%                      │
+│  🎓 Calificación: A - Excelente        │
+└────────────────────────────────────────┘
+```
+
+---
+### Instalar dependencias
 ```bash
-git clone https://github.com/TU-USUARIO/editor-imagenes-matricial.git
-cd editor-imagenes-matricial
 npm install
 ```
 
-### 2. Completar los ejercicios
-- Abre el archivo `src/ejercicios.js`
-- Completa cada función donde dice `// TODO:`
-- **NO modifiques** los archivos `utilidades.js`, `matriz.js` ni los tests
-
-### 3. Probar tu código
+### Ejecutar tests
 ```bash
 npm test
 ```
 
-### 4. Guardar tus cambios
+### Ejecutar tests en modo watch
 ```bash
-git add src/ejercicios.js
-git commit -m "Completar ejercicios de la sección X"
-git push origin main
+npm run test:watch
 ```
 
-### 5. Ver tu calificación
-- Ve a tu repositorio en GitHub
-- Click en la pestaña **Actions**
-- Tu calificación aparecerá en los resultados
-
----
-
-## Sistema de Calificación
-
-| Sección | Puntos |
-|---------|--------|
-| 1. Commits bien documentados | 20 pts |
-| 2. README actualizado y personalizado | 25 pts |
-| 3. Editor funcional | 30 pts |
-| 4. Funciones bien documentadas | 25 pts |
-| **TOTAL** | **100 pts** |
-
----
-
-## Estructura del Proyecto
-
-```
-src/
-├── ejercicios.js          ← COMPLETA ESTE ARCHIVO
-├── ejercicios.test.js     ← NO MODIFICAR
-├── utilidades.js          ← NO MODIFICAR (funciones auxiliares)
-└── matriz.js              ← NO MODIFICAR (operaciones matriciales)
-
-imagenes/
-├── entrada/               ← Imágenes de prueba
-└── salida/                ← Resultados generados
-
-guias/
-├── GUIA_ESTUDIANTES.md    ← Ayuda detallada
-├── GUIA_INSTRUCTOR.md     ← Soluciones (solo instructor)
-└── CONCEPTOS_ALGEBRA.md   ← Teoría de álgebra lineal
+### Ver cobertura de código
+```bash
+npm run test:coverage
 ```
 
 ---
 
-## Recursos
+## 📁 Estructura del Proyecto
 
-- **Guía Estudiantes:** `guias/GUIA_ESTUDIANTES.md`
-- **Conceptos Álgebra:** `guias/CONCEPTOS_ALGEBRA.md`
-- **Documentación pngjs:** [npmjs.com/package/pngjs](https://www.npmjs.com/package/pngjs)
+```
+fundamentos-programacion-practica-1/
+│
+├── ejercicios.js           # ⭐ Archivo principal con mis soluciones
+├── ejercicios.test.js      # Tests automatizados (no modificar)
+├── package.json            # Configuración del proyecto
+├── README.md               # Este archivo
+├── GUIA_ESTUDIANTES.md     # Guía de referencia
+├── GUIA_INSTRUCTOR.md      # Guía del profesor
+│
+└── .github/
+    └── workflows/
+        └── test.yml        # Configuración de GitHub Actions
+```
+
+
+
+------
+## 💡 Aprendizajes Clave
+
+### Lo que más me costó
+- **Seccion 5: aprender a implementacion de matrices 
+
+### Lo que más me gustó
+- **Desarrollar ejercicios en javascript 
 
 ---
 
-## Reglas Importantes
+## 🤝 Agradecimientos
 
-1. ✅ Solo modifica `src/ejercicios.js`
-2. ❌ No modifiques los archivos de tests
-3. ❌ No modifiques `utilidades.js` ni `matriz.js`
-4. ✅ Puedes hacer múltiples commits
-5. ✅ Todos los tests deben pasar para obtener puntos
+- **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
+- **Compañeros del Grupo [Enruque zabala]** por el apoyo mutuo
+- **Tecnológico de Software** por la formación integral
 
 ---
 
-## ¿Necesitas Ayuda?
+## 📄 Licencia
 
-1. Lee `guias/GUIA_ESTUDIANTES.md`
-2. Consulta `guias/CONCEPTOS_ALGEBRA.md`
-3. Pregunta a tus compañeros
-4. Contacta al profesor: jorge.pedroza@tecdesoftware.edu.mx
+Este proyecto es parte de las actividades académicas del **Tecnológico de Software** y está bajo la licencia MIT.
 
 ---
 
-**¡Éxito en tu proyecto!**
