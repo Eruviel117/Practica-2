@@ -145,6 +145,7 @@ function matrizAImagen(matriz, rutaSalida) {
  * Extrae solo un canal (R, G, o B) de la imagen y crea una imagen en escala de grises
  * donde ese canal es el valor de gris.
  * 
+ * 
  * @param {Array<Array<Object>>} matriz - Matriz de píxeles
  * @param {string} canal - 'r', 'g', o 'b'
  * @returns {Array<Array<Object>>} - Matriz con solo ese canal
