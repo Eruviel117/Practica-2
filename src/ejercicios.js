@@ -185,7 +185,7 @@ function obtenerCanal(matriz, canal) {
 
 /**
  * Ejercicio 1.4: Obtener dimensiones de una imagen (5 puntos)
- * 
+ * {}
  * @param {string} rutaImagen - Ruta del archivo PNG
  * @returns {Object} - {ancho, alto, totalPixeles}
  * 
