@@ -342,6 +342,7 @@ function convertirEscalaGrises(matriz) {
  * Concepto matemático:
  * pixel[i][j] → pixel[i][ancho - 1 - j]
  * 
+ * 
  * @example
  * const espejo = voltearHorizontal(matriz);
  */
