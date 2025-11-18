@@ -110,10 +110,10 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
-- **Seccion 5: aprender a implementacion de matrices 
+- **toda a seccion 1 de conversion imagen a matriz 
 
 ### Lo que más me gustó
-- **Desarrollar ejercicios en javascript 
+- **Desarrollar ejercicios en javascript, aprender mas funciones y hacer y generar operaciones con matrices 
 
 ---
 
