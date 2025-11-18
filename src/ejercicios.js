@@ -366,6 +366,7 @@ function voltearHorizontal(matriz) {
 /**
  * Ejercicio 3.2: Voltear vertical (10 puntos)
  * 
+ * 
  * Voltea la imagen verticalmente (de arriba hacia abajo).
  * El orden de las filas se invierte.
  * 
