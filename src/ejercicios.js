@@ -424,6 +424,9 @@ function rotar90Grados(matriz) {
     }
   }
   
+
+
+  
   return resultado;
 
 }
