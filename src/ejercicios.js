@@ -268,6 +268,7 @@ function ajustarBrillo(matriz, factor) {
  * const negativo = invertirColores(matriz);
  * // Blanco (255,255,255) → Negro (0,0,0)
  * // Rojo (255,0,0) → Cian (0,255,255)
+ * 
  */
 function invertirColores(matriz) {
   // TODO: Implementar inversión de colores
