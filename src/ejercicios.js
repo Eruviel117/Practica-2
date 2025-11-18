@@ -299,6 +299,7 @@ function invertirColores(matriz) {
  * 
  * @example
  * const grises = convertirEscalaGrises(matriz);
+ * 
  */
 function convertirEscalaGrises(matriz) {
   // TODO: Implementar conversión a escala de grises
