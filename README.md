@@ -37,9 +37,9 @@ Cada matriz contiene valores numéricos entre 0 y 1 que representan un dibujo ti
 - **Valores intermedios (0.2, 0.5, 0.7, etc.):** La celda se colorea en tonos de gris
 
 - 
-##Matrices 
+## Matrices 
 
-Hoja: JEFE MAESTRO
+## Hoja: JEFE MAESTRO
 
 Dimensiones: 30 x30
 ```txt
@@ -64,7 +64,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC AD
 ```
 
 
-##Hoja: Spideman
+## Hoja: Spideman
 
 Dimensiones: 30 x30
 
@@ -88,7 +88,7 @@ Dimensiones: 30 x30
 ```
 ---
 
-##Hoja: Gato
+## Hoja: Gato
 
 Dimensiones: 30 x30
 ```txt
@@ -115,7 +115,7 @@ Dimensiones: 30 x30
 
 ---
 
-##Hoja: koala
+## Hoja: koala
 
 Dimensiones: 30 x 30
 
@@ -141,7 +141,7 @@ Dimensiones: 30 x 30
 ---
 
 
-##Hoja: Ballena
+## Hoja: Ballena
 Dimensiones: 30 x 30
 
 
