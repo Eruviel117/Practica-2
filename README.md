@@ -17,7 +17,7 @@ Este README documenta las matrices contenidas en el archivo algebra  y los pasos
 
 Repositorio que acompaña al archivo algebra .xlsx (subido al repositorio). Aquí se describen las hojas (sheets) del archivo, se muestran vistas previas de las matrices y se detallan los pasos para extraer y utilizar dichas matrices.
 
-
+---
 ##Matrices 
 
 Hoja: JEFE MAESTRO
@@ -25,8 +25,26 @@ Hoja: JEFE MAESTRO
 Dimensiones: 10 filas x 5 columnas
 
 ---
+Hoja: Spideman
 
+Dimensiones: 8 filas x 4 columnas
 
+---
+
+Hoja: Gato
+
+Dimensiones: 12 filas x 3 columnas
+
+---
+
+Hoja: koala
+
+Dimensiones: 6 filas x 6 columnas
+
+---
+Hoja: Ballena 
+
+Dimensiones: 5 filas x 5 columnas
 
 
 
