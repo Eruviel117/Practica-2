@@ -41,7 +41,7 @@ Cada matriz contiene valores numéricos entre 0 y 1 que representan un dibujo ti
 
 Hoja: JEFE MAESTRO
 
-Dimensiones: 10 filas x 5 columnas
+Dimensiones: 30 x30
 ```txt
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC AD
  1   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -64,9 +64,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC AD
 ```
 
 
-Hoja: Spideman
+##Hoja: Spideman
 
-Dimensiones: 8 filas x 4 columnas
+Dimensiones: 30 x30
 
 ```txt
 0   0   0   1   1   1   1   1   0   0   0   0   0   0
@@ -88,9 +88,9 @@ Dimensiones: 8 filas x 4 columnas
 ```
 ---
 
-Hoja: Gato
+##Hoja: Gato
 
-Dimensiones: 12 filas x 3 columnas
+Dimensiones: 30 x30
 ```txt
 
 0   0   0   0   0   0   0   0   0   0   0   0   0    0    0    0   0
@@ -115,9 +115,11 @@ Dimensiones: 12 filas x 3 columnas
 
 ---
 
-Hoja: koala
+##Hoja: koala
 
-Dimensiones: 6 filas x 6 columnas
+Dimensiones: 30 x 30
+
+
 ```txt
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
@@ -137,8 +139,12 @@ Dimensiones: 6 filas x 6 columnas
 
 
 ---
-Hoja: Ballena
-Dimensiones: 5 filas x 5 columnas
+
+
+##Hoja: Ballena
+Dimensiones: 30 x 30
+
+
 ```txt
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0.5 0   0.5 0   0   0   0   0
@@ -157,13 +163,21 @@ Dimensiones: 5 filas x 5 columnas
 0   0   0   0   0   0   0   0   0   0   0   1   1   0   0   1   1   0   0   0   0   0
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 ```
+---
 
-#### Matrices Trasnpuesta (5 hojas)
-- **Hoja 1:** Jefe maestro 1 - Matriz Original (30x30)
-- **Hoja 2:** Spiderma - Matriz Original (30x30)
-- **Hoja 3:** gato - Matriz Original (30x30)
-- **Hoja 4:** koala- Matriz Original (30x30)
-- **Hoja 5:** ballena - Matriz Original (30x30)
+#### Matrices Traspuestas (5 hojas)
+- **Hoja 6:** Jefe Maestro - Matriz Traspuesta (AT₁)
+- **Hoja 7:** Spiderman - Matriz Traspuesta (AT₂)
+- **Hoja 8:** Gato - Matriz Traspuesta (AT₃)
+- **Hoja 9:** Koala - Matriz Traspuesta (AT₄)
+- **Hoja 10:** Ballena - Matriz Traspuesta (AT₅)
+
+**Fórmula de Traspuesta:** AT[i,j] = A[j,i]
+
+
+Hoja: JEFE MAESTRO
+
+Dimensiones: 30 x30
 
 ```txt
 
@@ -189,6 +203,10 @@ Dimensiones: 5 filas x 5 columnas
 ...
 ```
 
+##Hoja: Spideman
+
+Dimensiones: 30 x30
+
 
 ```txt
 
@@ -209,6 +227,9 @@ Dimensiones: 5 filas x 5 columnas
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 ```
 
+##Hoja: Gato
+
+Dimensiones: 30 x30
 
 ```txt
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
@@ -233,6 +254,9 @@ Dimensiones: 5 filas x 5 columnas
 
 ```
 
+##Hoja: koala
+
+Dimensiones: 30 x 30
 
 
 ```txt
@@ -262,7 +286,8 @@ Dimensiones: 5 filas x 5 columnas
 
 ```
 
-
+##Hoja: Ballena
+Dimensiones: 30 x 30
 
 
 
@@ -313,19 +338,14 @@ Supongamos que tu matriz original está en el rango **A1:N20** y el escalar est�
 
 
 
-INSERTAR IMAGEN 
 
-
-
-
-
-# 🟩 2. Hoja: Suma de Matrices (Imagen A + Imagen B)
+#  2. Hoja: Suma de Matrices (Imagen A + Imagen B)
 Esta operación combina dos imágenes pixeladas sumando sus valores numéricos.
 
-## ✔️ Requisitos
+##  Requisitos
 - Ambas matrices deben tener **las mismas dimensiones**.
 
-## ✔️ Fórmula
+##  Fórmula
 Si la primera imagen está en la hoja A en **A1:N20** y la segunda en la hoja B en el mismo rango:
 
 En la nueva hoja, en la celda **A1** escribe:
@@ -337,18 +357,12 @@ En la nueva hoja, en la celda **A1** escribe:
 Arrastra hacia toda la matriz.
 
 
-INSERTAR IMAGEN 
-
-
-
-
-
 
 
 #  3. Hoja: Resta de Matrices (Imagen A − Imagen B)
 La resta permite comparar o extraer diferencias entre dos imágenes.
 
-## ✔️ Fórmula
+## Fórmula
 En la celda **A1** de la hoja correspondiente escribe:
 
 ```
@@ -360,20 +374,16 @@ Luego arrastra en toda la matriz.
 
 
 
-INSERTAR IMAGEN 
 
-
-
-
-# 🟨 4. Hoja: Composición de Matrices (c₁A + c₂B)
+# 4. Hoja: Composición de Matrices (c₁A + c₂B)
 La composición mezcla dos imágenes mediante la suma ponderada de cada una con un escalar.
 
-## ✔️ Preparación
+##  Preparación
 Coloca:
 - El escalar **c₁** en la celda **P1**
 - El escalar **c₂** en la celda **Q1**
 
-## ✔️ Fórmula general
+##  Fórmula general
 Si la matriz A está en HojaA!A1:N20 y la matriz B en HojaB!A1:N20, en la nueva hoja escribe en **A1**:
 
 ```
@@ -383,17 +393,6 @@ Si la matriz A está en HojaA!A1:N20 y la matriz B en HojaB!A1:N20, en la nueva 
 Arrastra para llenar toda la matriz.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 
 
