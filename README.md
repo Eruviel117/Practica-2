@@ -175,7 +175,7 @@ Dimensiones: 30 x 30
 **Fórmula de Traspuesta:** AT[i,j] = A[j,i]
 
 
-Hoja: JEFE MAESTRO
+## Hoja: JEFE MAESTRO
 
 Dimensiones: 30 x30
 
@@ -203,7 +203,7 @@ Dimensiones: 30 x30
 ...
 ```
 
-##Hoja: Spideman
+## Hoja: Spideman
 
 Dimensiones: 30 x30
 
@@ -227,7 +227,7 @@ Dimensiones: 30 x30
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 ```
 
-##Hoja: Gato
+## Hoja: Gato
 
 Dimensiones: 30 x30
 
@@ -254,7 +254,7 @@ Dimensiones: 30 x30
 
 ```
 
-##Hoja: koala
+## Hoja: koala
 
 Dimensiones: 30 x 30
 
@@ -286,7 +286,7 @@ Dimensiones: 30 x 30
 
 ```
 
-##Hoja: Ballena
+## Hoja: Ballena
 Dimensiones: 30 x 30
 
 
