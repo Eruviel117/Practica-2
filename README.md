@@ -138,6 +138,7 @@ Dimensiones: 6 filas x 6 columnas
 
 ---
 Hoja: Ballena
+Dimensiones: 5 filas x 5 columnas
 ```txt
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0.5 0   0.5 0   0   0   0   0
@@ -158,7 +159,106 @@ Hoja: Ballena
 ```
 
 
-Dimensiones: 5 filas x 5 columnas
+
+
+
+# 1. Hoja: Multiplicación Escalar (Imagen × Escalar)
+La **multiplicación escalar** consiste en multiplicar todos los valores de la matriz por un número constante, por ejemplo, aumentar o disminuir la intensidad de los colores.
+
+Supongamos que tu matriz original está en el rango **A1:N20** y el escalar está en la celda **P1**.
+
+1. En una hoja nueva, selecciona un rango con las mismas dimensiones que la matriz.
+2. En la primera celda (por ejemplo, **A1**), escribe:
+
+```
+=A1 * $P$1
+```
+
+3. Arrastra la fórmula hacia la derecha y hacia abajo.
+
+
+
+INSERTAR IMAGEN 
+
+
+
+
+
+# 🟩 2. Hoja: Suma de Matrices (Imagen A + Imagen B)
+Esta operación combina dos imágenes pixeladas sumando sus valores numéricos.
+
+## ✔️ Requisitos
+- Ambas matrices deben tener **las mismas dimensiones**.
+
+## ✔️ Fórmula
+Si la primera imagen está en la hoja A en **A1:N20** y la segunda en la hoja B en el mismo rango:
+
+En la nueva hoja, en la celda **A1** escribe:
+
+```
+=HojaA!A1 + HojaB!A1
+```
+
+Arrastra hacia toda la matriz.
+
+
+INSERTAR IMAGEN 
+
+
+
+
+
+
+
+#  3. Hoja: Resta de Matrices (Imagen A − Imagen B)
+La resta permite comparar o extraer diferencias entre dos imágenes.
+
+## ✔️ Fórmula
+En la celda **A1** de la hoja correspondiente escribe:
+
+```
+=HojaA!A1 - HojaB!A1
+```
+
+Luego arrastra en toda la matriz.
+
+
+
+
+INSERTAR IMAGEN 
+
+
+
+
+# 🟨 4. Hoja: Composición de Matrices (c₁A + c₂B)
+La composición mezcla dos imágenes mediante la suma ponderada de cada una con un escalar.
+
+## ✔️ Preparación
+Coloca:
+- El escalar **c₁** en la celda **P1**
+- El escalar **c₂** en la celda **Q1**
+
+## ✔️ Fórmula general
+Si la matriz A está en HojaA!A1:N20 y la matriz B en HojaB!A1:N20, en la nueva hoja escribe en **A1**:
+
+```
+=HojaA!A1 * $P$1 + HojaB!A1 * $Q$1
+```
+
+Arrastra para llenar toda la matriz.
+
+---
+
+
+
+
+
+
+
+
+
+
+
 
 
 
