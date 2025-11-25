@@ -46,6 +46,7 @@ Cada matriz contiene valores numéricos entre 0 y 1 que representan un dibujo ti
 Hoja: JEFE MAESTRO
 
 Dimensiones: 10 filas x 5 columnas
+```txt
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC AD
  1   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
  2   . . . 1 1 1 1 1 1 1 1 1 1 . . . . . . . . . . . . . . . . .
@@ -64,7 +65,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC AD
 15   . . 1 1 1 1 1 1 1 1 1 1 . . . . . . . . . . . . . . . . . .
 16   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 17   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
----
+```
+
+
 Hoja: Spideman
 
 Dimensiones: 8 filas x 4 columnas
