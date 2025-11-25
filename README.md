@@ -13,10 +13,6 @@
 Este README documenta las matrices contenidas en el archivo algebra  y los pasos para reproducir dibujo con las matrices 
 
 
-##Descripción
-
-Repositorio que acompaña al archivo algebra .xlsx (subido al repositorio). Aquí se describen las hojas (sheets) del archivo, se muestran vistas previas de las matrices y se detallan los pasos para extraer y utilizar dichas matrices.
-
 
 ---
 
@@ -26,7 +22,7 @@ Repositorio que acompaña al archivo algebra .xlsx (subido al repositorio). Aqu�
 El archivo contiene **14 hojas de cálculo** organizadas de la siguiente manera:
 
 
-### 📊 Hojas Base (10 hojas)
+###  Hojas Base (10 hojas)
 
 #### Matrices Originales (5 hojas)
 - **Hoja 1:** Imagen 1 - Matriz Original (30x30)
@@ -163,6 +159,29 @@ Hoja: Ballena
 
 
 Dimensiones: 5 filas x 5 columnas
+
+
+
+
+## Técnica de Formato Condicional
+
+Para replicar el efecto visual del pixel art con escala de grises en nuevas hojas:
+
+### Opción 1: Formato Condicional con Escala de Color
+
+1. Selecciona el rango de 30×30 (por ejemplo, A1:AD30)
+2. Ve a Inicio > Formato condicional > Escalas de color
+3. Selecciona una escala de 3 colores:
+   - Valor mínimo (0): Blanco
+   - Punto medio (0.5): Gris
+   - Valor máximo (1): Negro
+4. Excel aplicará automáticamente todos los tonos intermedios
+
+
+---
+
+## Autor
+Euruviel Marquez Martinez 
 
 
 
