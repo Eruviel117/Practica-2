@@ -17,7 +17,30 @@ Este README documenta las matrices contenidas en el archivo algebra  y los pasos
 
 Repositorio que acompaña al archivo algebra .xlsx (subido al repositorio). Aquí se describen las hojas (sheets) del archivo, se muestran vistas previas de las matrices y se detallan los pasos para extraer y utilizar dichas matrices.
 
+
 ---
+
+
+## Estructura del Archivo
+
+El archivo contiene **14 hojas de cálculo** organizadas de la siguiente manera:
+
+
+### 📊 Hojas Base (10 hojas)
+
+#### Matrices Originales (5 hojas)
+- **Hoja 1:** Imagen 1 - Matriz Original (30x30)
+- **Hoja 2:** Imagen 2 - Matriz Original (30x30)
+- **Hoja 3:** Imagen 3 - Matriz Original (30x30)
+- **Hoja 4:** Imagen 4 - Matriz Original (30x30)
+- **Hoja 5:** Imagen 5 - Matriz Original (30x30)
+
+Cada matriz contiene valores numéricos entre 0 y 1 que representan un dibujo tipo pixel art con escala de grises:
+- **Valor 1:** La celda se colorea de negro (píxel completamente activo)
+- **Valor 0:** La celda se colorea de blanco (píxel inactivo)
+- **Valores intermedios (0.2, 0.5, 0.7, etc.):** La celda se colorea en tonos de gris
+
+- 
 ##Matrices 
 
 Hoja: JEFE MAESTRO
