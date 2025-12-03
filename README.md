@@ -19,7 +19,7 @@ Dada la matriz:
 
 
 $$
-A = egin{pmatrix}
+A = begin{pmatrix}
 a & b \\
 c & d
 \end{pmatrix}
@@ -41,7 +41,7 @@ Dadas las matrices:
 
 
 $$
-A = egin{pmatrix}
+A = begin{pmatrix}
 2 & 1 \\
 1 & 3
 \end{pmatrix}
