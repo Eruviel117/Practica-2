@@ -12,116 +12,86 @@
 
 Este repositorio contiene mi solución a la práctica de **Fundamentos de Programación**, donde implemento funciones en JavaScript para resolver problemas de álgebra básica, preparándome para trabajar con operaciones matriciales más complejas.
 
-##  Objetivos Alcanzados
 
-- ✅ Dominar variables y tipos de datos en JavaScript
-- ✅ Implementar estructuras condicionales
-- ✅ Utilizar bucles y funciones
-- ✅ Manipular arrays unidimensionales
-- ✅ Trabajar con arrays bidimensionales (matrices)
-- ✅ Aplicar control de versiones con Git y GitHub
+## **Ejercicio 1: Determinante de una matriz 2×2**
 
----
+Dada la matriz:
 
-## 📊 Progreso de Ejercicios
+[ A = \begin{pmatrix} a & b \ c & d \end{pmatrix} ]
+El determinante se calcula como:
 
-### Sección 1: Conversión Imagen = Matriz 
-- [x] 1.1 Imagen a matriz     ✅
-- [x] 1.2 Matris a imagen     ✅
-- [x] 1.3 Obtener canal       ✅
-- [x] 1.4 Obtener dimencion de imagen ✅
-
-
-### Sección 2: Operaciones Basicas 
-- [x] 2.1 Ajuste de brillo ✅
-- [x] 2.2 Invertir colores ✅
-- [x] 2.3 Convertir esacala de grises  ✅
-
-
-### Sección 3: Transformaciones geometricas 
-- [x] 3.1 Voltear horizontal ✅
-- [x] 3.2 voltear vertical  ✅
-- [x] 3.3 Rotar a 90 grados✅
-
-
-### Sección 4: Filtroz avanzados
-- [x] 4.1 Mezclar imagenes ✅
-- [x] 4.2 Aplicar sepia ✅
-- [x] 4.3 Detectar bordes ✅
-
+[ \det(A) = ad - bc ]
 
 ---
 
-## 📈 Calificación Final
+## **Ejercicio 2: Suma, resta y multiplicación de matrices**
 
-```
-┌────────────────────────────────────────┐
-│  REPORTE DE CALIFICACIÓN               │
-├────────────────────────────────────────┤
-│  Puntos obtenidos: 100/100             │
-│  Porcentaje: 100%                      │
-│  🎓 Calificación: A - Excelente        │
-└────────────────────────────────────────┘
-```
+Dadas las matrices:
+[
+A = \begin{pmatrix} 2 & 1 \ 1 & 3 \end{pmatrix}, \quad
+B = \begin{pmatrix} 1 & 2 \ 3 & 1 \end{pmatrix}
+]
 
----
-### Instalar dependencias
-```bash
-npm install
-```
+### **A + B**
 
-### Ejecutar tests
-```bash
-npm test
-```
+Se suman elemento a elemento:
+[
+A + B = \begin{pmatrix} 3 & 3 \ 4 & 4 \end{pmatrix}
+]
 
-### Ejecutar tests en modo watch
-```bash
-npm run test:watch
-```
+### **A − B**
 
-### Ver cobertura de código
-```bash
-npm run test:coverage
-```
+[
+A - B = \begin{pmatrix} 1 & -1 \ -2 & 2 \end{pmatrix}
+]
+
+### **Multiplicación AB**
+
+[
+AB = \begin{pmatrix}
+(2)(1) + (1)(3) & (2)(2) + (1)(1) \
+(1)(1) + (3)(3) & (1)(2) + (3)(1)
+\end{pmatrix}
+= \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
+]
 
 ---
 
-## 📁 Estructura del Proyecto
+## **Ejercicio 3: Determinante de AB, A y B**
 
-```
-fundamentos-programacion-practica-1/
-│
-├── ejercicios.js           # ⭐ Archivo principal con mis soluciones
-├── ejercicios.test.js      # Tests automatizados (no modificar)
-├── package.json            # Configuración del proyecto
-├── README.md               # Este archivo
-├── GUIA_ESTUDIANTES.md     # Guía de referencia
-├── GUIA_INSTRUCTOR.md      # Guía del profesor
-│
-└── .github/
-    └── workflows/
-        └── test.yml        # Configuración de GitHub Actions
-```
+### **Determinante de A**
 
+[
+\det(A) = (2)(3) - (1)(1) = 6 - 1 = 5
+]
 
+### **Determinante de B**
 
-------
-## 💡 Aprendizajes Clave
+[
+\det(B) = (1)(1) - (2)(3) = 1 - 6 = -5
+]
 
-### Lo que más me costó
-- **toda a seccion 1 de conversion imagen a matriz 
+### **Determinante de AB**
 
-### Lo que más me gustó
-- **Desarrollar ejercicios en javascript, aprender mas funciones y hacer y generar operaciones con matrices 
+Usando la matriz calculada:
+[
+AB = \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
+]
+[
+\det(AB) = (5)(5) - (5)(10) = 25 - 50 = -25
+]
+
+### **Verificación de la propiedad**
+
+[
+\det(AB) = \det(A)\cdot\det(B)
+]
+[
+-25 = (5)(-5)
+]
+✔ **Propiedad verificada**
 
 ---
-
-## 🤝 Agradecimientos
-
-- **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
-- **Compañeros del Grupo [Enruque zabala]** por el apoyo mutuo
-- **Tecnológico de Software** por la formación integral
 
 ---
 
