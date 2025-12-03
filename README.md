@@ -18,15 +18,19 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Progra
 Dada la matriz:
 
 
-[ A = \begin{pmatrix} a & b \ c & d \end{pmatrix} ]
-
-
-
+$$
+A = egin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$
 
 El determinante se calcula como:
 
+$$
+\det(A) = ad - bc
+$$
 
-[ \det(A) = ad - bc ]
 
 ---
 
@@ -36,36 +40,37 @@ Dadas las matrices:
 
 
 
+$$
+A = egin{pmatrix}
+2 & 1 \\
+1 & 3
+\end{pmatrix}
+\qquad
+B = egin{pmatrix}
+1 & 2 \\
+3 & 1
+\end{pmatrix}
+$$
 
-[
-A = \begin{pmatrix} 2 & 1 \ 1 & 3 \end{pmatrix}, \quad
-B = \begin{pmatrix} 1 & 2 \ 3 & 1 \end{pmatrix}
-]
+### A + B
 
+$$
+A + B =
+egin{pmatrix}
+3 & 3 \\
+4 & 4
+\end{pmatrix}
+$$
 
+### A - B
 
-
-### **A + B**
-
-Se suman elemento a elemento:
-
-
-
-
-
-[
-A + B = \begin{pmatrix} 3 & 3 \ 4 & 4 \end{pmatrix}
-]
-
-
-
-### **A − B**
-
-
-
-[
-A - B = \begin{pmatrix} 1 & -1 \ -2 & 2 \end{pmatrix}
-]
+$$
+A - B =
+egin{pmatrix}
+1 & -1 \\
+-2 & 2
+\end{pmatrix}
+$$
 
 
 
