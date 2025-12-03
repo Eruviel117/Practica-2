@@ -41,38 +41,28 @@ $$
 Dadas las matrices:
 
 
+Dadas las matrices:
 
-$$
-A = begin{pmatrix}
-2 & 1 \\
-1 & 3
-\end{pmatrix}
-\qquad
-B = egin{pmatrix}
-1 & 2 \\
-3 & 1
-\end{pmatrix}
-$$
+    A = | 2   1 |
+        | 1   3 |
 
-### A + B
+    B = | 1   2 |
+        | 3   1 |
 
-$$
-A + B =
-egin{pmatrix}
-3 & 3 \\
-4 & 4
-\end{pmatrix}
-$$
+------------------------------------------------------------------------
 
-### A - B
+## A + B
 
-$$
-A - B =
-egin{pmatrix}
-1 & -1 \\
--2 & 2
-\end{pmatrix}
-$$
+    A + B = | 3   3 |
+            | 4   4 |
+
+------------------------------------------------------------------------
+
+## A - B
+
+    A - B = |  1  -1 |
+            | -2   2 |
+
 
 
 
@@ -82,53 +72,35 @@ $$
 
 
 
+    AB = | (2*1 + 1*3)   (2*2 + 1*1) |
+         | (1*1 + 3*3)   (1*2 + 3*1) |
 
-[
-AB = \begin{pmatrix}
-(2)(1) + (1)(3) & (2)(2) + (1)(1) \
-(1)(1) + (3)(3) & (1)(2) + (3)(1)
-\end{pmatrix}
-= \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
-]
-
-
+    AB = |  5   5 |
+         | 10   5 |
 
 
 ---
 
 ## **Ejercicio 3: Determinante de AB, A y B**
 
-### **Determinante de A**
+### Determinante de A
 
-[
-\det(A) = (2)(3) - (1)(1) = 6 - 1 = 5
-]
+    det(A) = (2*3) - (1*1) = 5
 
-### **Determinante de B**
+### Determinante de B
 
-[
-\det(B) = (1)(1) - (2)(3) = 1 - 6 = -5
-]
+    det(B) = (1*1) - (2*3) = -5
 
-### **Determinante de AB**
+### Determinante de AB
 
-Usando la matriz calculada:
-[
-AB = \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
-]
-[
-\det(AB) = (5)(5) - (5)(10) = 25 - 50 = -25
-]
+    det(AB) = (5*5) - (5*10) = -25
 
-### **Verificación de la propiedad**
+### Verificación
 
-[
-\det(AB) = \det(A)\cdot\det(B)
-]
-[
--25 = (5)(-5)
-]
-✔ **Propiedad verificada**
+    det(AB) = det(A) * det(B)
+    -25 = 5 * -5
+
+✔ Propiedad verificada
 
 ---
 
