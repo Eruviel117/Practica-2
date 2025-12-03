@@ -17,8 +17,14 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Progra
 
 Dada la matriz:
 
+
 [ A = \begin{pmatrix} a & b \ c & d \end{pmatrix} ]
+
+
+
+
 El determinante se calcula como:
+
 
 [ \det(A) = ad - bc ]
 
@@ -27,25 +33,48 @@ El determinante se calcula como:
 ## **Ejercicio 2: Suma, resta y multiplicación de matrices**
 
 Dadas las matrices:
+
+
+
+
 [
 A = \begin{pmatrix} 2 & 1 \ 1 & 3 \end{pmatrix}, \quad
 B = \begin{pmatrix} 1 & 2 \ 3 & 1 \end{pmatrix}
 ]
 
+
+
+
 ### **A + B**
 
 Se suman elemento a elemento:
+
+
+
+
+
 [
 A + B = \begin{pmatrix} 3 & 3 \ 4 & 4 \end{pmatrix}
 ]
 
+
+
 ### **A − B**
+
+
 
 [
 A - B = \begin{pmatrix} 1 & -1 \ -2 & 2 \end{pmatrix}
 ]
 
+
+
+
+
 ### **Multiplicación AB**
+
+
+
 
 [
 AB = \begin{pmatrix}
@@ -54,6 +83,9 @@ AB = \begin{pmatrix}
 \end{pmatrix}
 = \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
 ]
+
+
+
 
 ---
 
