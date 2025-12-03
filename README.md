@@ -18,12 +18,14 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Progra
 Dada la matriz:
 
 
-$$
-A = begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$$
+Dada la matriz:
+
+    A = | a   b |
+        | c   d |
+
+El determinante se calcula como:
+
+    det(A) = ad - bc
 
 El determinante se calcula como:
 
